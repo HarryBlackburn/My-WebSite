@@ -14,12 +14,39 @@ body {
 /* header */
 
 header {
-    /*position: absolute;*/
-    margin-top: 1em;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 1em;
 }
 
 nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 1em
+}
+
+nav a {
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8rem;
+    padding: .5em;
+    color: #FFF
+}
+
+nav a:hover,
+nav a:focus {
+    color:#000;
+}
+
+.home-hero{
+    background-image:
+    url(../IMG_1204.png);
+    padding: 10em 0;
 }
