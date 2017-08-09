@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset='utf-8' />
-    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Website </title>
     <link rel='stylesheet' href='css/style.css' />
 </head>
@@ -10,10 +10,10 @@
 <body>
 
 <header> 
-    <img src="logo.png" alt="My Artwork" class="logo">
+    <img src="logo.png" alt="My Artwork" class="logo" style="width:10em;height:auto">
     <nav>
         <ul>
-            <li><a href="">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="who-am-i.html">Who Am I</a></li>
             <li><a href="intentions.html">My Intentions Supported By Bootstrap</a></li>
         </ul>
@@ -21,19 +21,23 @@
 </header>
 
 <section class="home-hero">
-<h1>My very first Website
-    <span>it was a struggle but the first must always be remembered</span>
-</h1
-
-<a href="" class="button"> Dig Deeper</a>
+    <div class="container">
+    <h1 class= "title">My very first Website
+        <span>it was a struggle but the first must always be remembered</span>
+    </h1>
+    <a href="" class="button button-accent"> Dig Deeper</a>
+    </div>
 </section>
 
-<section class="home-about"></section>
+<section class="home-about">
 
 <div class="home-about-textbox">
     <h1> Who I Am?</h1>
-    <p> quick brown fox jumps over the fence.</p> <p><strong> My soundcloud account...</strong></p>
+    <p> quick brown fox jumps over the fence.</p> 
+    <p><strong> My soundcloud account...</strong></p>
 </div>
+
+</section>
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js'></script>
 <script src='js/main.js'></script>
