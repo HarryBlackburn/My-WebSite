@@ -9,6 +9,7 @@ url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
 
 
 body {
+    color:white;
     margin: 0;
     font-family: 'Raleway', sans-serif;
     text-align: center;
@@ -26,7 +27,9 @@ img {
 
 .title {
     font-size: 2.5rem;
+    color:white;
     margin-bottom: 
+    
 }
 
 .title span {
@@ -68,11 +71,12 @@ header {
     left: 0;
     right: 0;
     margin: 1em;
+    
 }
 
 nav ul {
     margin: 0;
-    padding: 0;
+    padding: 10;
     list-style: none;
 }
 
@@ -116,6 +120,5 @@ nav a:focus {
 @media (min-width: 60rem) {
     .home-hero {
         height: 100vh; 
-        padding-top: 35vh;
     }
 }

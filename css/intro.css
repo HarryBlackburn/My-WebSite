@@ -1,0 +1,53 @@
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 1em;
+}
+
+body {
+  background-color: black;
+  height: 100%;
+  font-family: 'tradegothiclt-bold', sans-serif;
+}
+
+.button {
+    position: absolute;
+    display: inline-block;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid #00ff6c;
+    padding: .53em 1.75em; 
+}
+
+.button-accent {
+    color: #00ff6c;
+    border-color: #00ff6c;
+}
+
+.button-accent: hover,
+.button-accent: focus {
+    background: #00ff6c;
+    color: #232323;
+    }
+
+
+h1 {
+  font-size: 5em;
+  color: white;
+  text-transform: uppercase;
+}
+
+
+
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
